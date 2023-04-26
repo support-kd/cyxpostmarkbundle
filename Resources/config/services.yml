@@ -1,0 +1,4 @@
+services:
+#    cyx.example:
+#        class: SupportKd\CyxPostMarkBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

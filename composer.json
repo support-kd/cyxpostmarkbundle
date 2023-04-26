@@ -1,0 +1,32 @@
+{
+  "name": "supportkd/cyxpostmarkbundle",
+  "type": "symfony-bundle",
+  "description": "PostMark bundle provide the pipe to send emails between your web application and your customers",
+  "keywords": ["PostMark", "symfony"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rizwan",
+      "email": "rizwan@cynixlabs.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.7",
+    "symfony/framework-bundle": "^3.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~3.2@dev",
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": { "SupportKd\\CyxPostMarkBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "dev-main"
+    }
+  },
+  "minimum-stability": "dev"
+}
